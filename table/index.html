@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1 >Discount table</h1>
+        <table style="width:100%">
+            <tr>
+              <th>vendor</th>
+              <th>trade A</th>
+              <th>trade B</th>
+              <th>trade C</th>
+              <th> trade D</th>
+            </tr>
+            <tr>
+              <td>vendor1</td>
+              <td>12</td>
+              <td>12</td>
+              <td>N/A</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>vendor2</td>
+              <td>10</td>
+              <td>8</td>
+              <td>20</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+                <td>vendor3</td>
+                <td>N/A</td>
+                <td>25</td>
+                <td>3</td>
+                <td>16</td>
+              </tr>
+              <tr>
+                <td>vendor4</td>
+                <td>9</td>
+                <td>N/A</td>
+                <td>16</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>vendor5</td>
+                <td>5</td>
+                <td>11</td>
+                <td>N/A</td>
+                <td>30</td>
+              </tr>
+          </table>
+    </div>
+    <div>
+        <h2>
+            Product table
+        </h2>
+        <table style="width:100%">
+            <tr>
+              <th>#</th>
+              <th>Product name </th>
+              <th>price</th>
+              <th>tags</th>
+              <th> vendor</th>
+              <th>cart</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>test product 1</td>
+                <td>12.5</td>
+                <td>TRADE A,ice</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>test product 2</td>
+                <td>42.5</td>
+                <td>TRADE B,ice2</td>
+                <td>vendor 4</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>test product 3</td>
+                <td>200</td>
+                <td>TRADE C,test </td>
+                <td>vendor 3</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>test product 4</td>
+                <td>52.5</td>
+                <td>TRADE C,test</td>
+                <td>vendor 2</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>test product 5</td>
+                <td>712.5</td>
+                <td>TRADE D,test</td>
+                <td>vendor 1</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>test product 6</td>
+                <td>17</td>
+                <td>TRADE A,test</td>
+                <td>vendor 3</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>test product 7</td>
+                <td>55</td>
+                <td>TRADE A,test</td>
+                <td>vendor 3</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>test product 8</td>
+                <td>37</td>
+                <td>TRADE D,test</td>
+                <td>vendor 4</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>test product 9</td>
+                <td>82</td>
+                <td>TRADE C,test</td>
+                <td>vendor 4</td>
+                <td ><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>test product 10</td>
+                <td>52</td>
+                <td>TRADE B,test</td>
+                <td>vendor 2</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>test product 11</td>
+                <td>102</td>
+                <td>TRADE B,test</td>
+                <td>vendor 1</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>test product 13</td>
+                <td>172.5</td>
+                <td>TRADE B,test</td>
+                <td>vendor 1</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>test product 13</td>
+                <td>100</td>
+                <td>TRADE D, test</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>test product 14</td>
+                <td>99.5</td>
+                <td>TRADE D,test</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>test product 15</td>
+                <td>87.5</td>
+                <td>TRADE A, test </td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>test product 16</td>
+                <td>57</td>
+                <td>TRADE A,test</td>
+                <td>vendor 1</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>test product 17</td>
+                <td>10</td>
+                <td>TRADE C,test</td>
+                <td>vendor 2</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>test product 18</td>
+                <td>412.5</td>
+                <td>TRADE D, test</td>
+                <td>vendor 3</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>test product 19</td>
+                <td>112.5</td>
+                <td>TRADE B, test</td>
+                <td>vendor 4</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>test product 20</td>
+                <td> 102</td>
+                <td>TRADE B, test</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>test product 21</td>
+                <td>52</td>
+                <td>TRADE A, test</td>
+                <td>vendor 3</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>test product 22</td>
+                <td>32</td>
+                <td>TRADE C,test</td>
+                <td>vendor 2</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>test product 23</td>
+                <td>12</td>
+                <td>TRADE B,test</td>
+                <td>vendor 4</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>test product 24</td>
+                <td>584.5</td>
+                <td>TRADE D,test</td>
+                <td>vendor 1</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>test product 25</td>
+                <td>67</td>
+                <td>TRADE D,test</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>test product 26</td>
+                <td>132.5</td>
+                <td>TRADE A,test</td>
+                <td>vendor 5</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+              <tr>
+                <td>27</td>
+                <td>test product 27</td>
+                <td>42.5</td>
+                <td>TRADE B,test</td>
+                <td>vendor 2</td>
+                <td><button>Add To Cart</button></td>
+              </tr>
+            </table>
+    </div>
+    <div>
+        <h3>Shopping cart</h3>
+        <table style="width:100%" id="cart-table">
+            <tr>
+              <th>#</th>
+              <th>Product name </th>
+              <th>Org price</th>
+              <th>DiscountPercentage</th>
+              <th> Discounted price</th>
+              <th>Vendor</th>
+              <th>Remove Cart</th>
+            </tr>
+            </table>
+    </div>
+    <div>
+        <h4>Total price:<span id="total-price">Rs.0</span></h4>
+    </div>
+    <script>
+        const productTable = [
+            // Your product data here
+            { id: 1, originalPrice: 12.5, productName: "Test Product 1", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 2, originalPrice: 42.5, productName: "Test Product 2", tag: "trade A,ice",vendor: "vendor4" },
+            { id: 3, originalPrice: 200, productName: "Test Product 3", tag: "trade A,ice",vendor: "vendor3" },
+            { id: 4, originalPrice: 52.5, productName: "Test Product 4", tag: "trade A,ice", vendor: "vendor2" },
+            { id: 5, originalPrice: 712.5, productName: "Test Product 5", tag: "trade A,ice",vendor: "vendor1" },
+            { id: 6, originalPrice: 17, productName: "Test Product 6", tag: "trade A,ice",vendor: "vendor3" },
+            { id: 7, originalPrice: 55, productName: "Test Product 7", tag: "trade A,ice",vendor: "vendor3" },
+            { id: 8, originalPrice: 37, productName: "Test Product 8", tag: "trade A,ice",vendor: "vendor4" },
+            { id: 9, originalPrice: 82, productName: "Test Product 9", tag: "trade A,ice",vendor: "vendor4" },
+            { id: 10, originalPrice: 52, productName: "Test Product 10", tag: "trade A,ice",vendor: "vendor2" },
+            { id: 11, originalPrice: 102, productName: "Test Product 11", tag: "trade A,ice",vendor: "vendor1" },
+            { id: 12, originalPrice: 172.5, productName: "Test Product 12", tag: "trade A,ice",vendor: "vendor1" },
+            { id: 13, originalPrice: 100, productName: "Test Product 13", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 14, originalPrice: 99.5, productName: "Test Product 14", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 15, originalPrice: 87.5, productName: "Test Product 15", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 16, originalPrice: 57, productName: "Test Product 16", tag: "trade A,ice",vendor: "vendor1" },
+            { id: 17, originalPrice: 10, productName: "Test Product 17", tag: "trade A,ice",vendor: "vendor2" },
+            { id: 18, originalPrice: 412.5, productName: "Test Product 18", tag: "trade A,ice",vendor: "vendor3" },
+            { id: 19, originalPrice: 112.5, productName: "Test Product 19", tag: "trade A,ice",vendor: "vendor4" },
+            { id: 20, originalPrice: 102, productName: "Test Product 20", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 21, originalPrice: 52, productName: "Test Product 21", tag: "trade A,ice",vendor: "vendor3" },
+            { id: 22, originalPrice: 32, productName: "Test Product 22", tag: "trade A,ice",vendor: "vendor2" },
+            { id: 23, originalPrice: 12, productName: "Test Product 23", tag: "trade A,ice",vendor: "vendor4" },
+            { id: 24, originalPrice: 584.5, productName: "Test Product 24", tag: "trade A,ice",vendor: "vendor1" },
+            { id: 25, originalPrice: 67, productName: "Test Product 25", tag: "trade A,ice", vendor: "vendor5" },
+            { id: 26, originalPrice: 132.5, productName: "Test Product 26", tag: "trade A,ice",vendor: "vendor5" },
+            { id: 27, originalPrice: 42.5, productName: "Test Product 27", tag: "trade A,ice",vendor: "vendor2" },
+            // Add more product data here as needed
+            ];
+
+        
+
+        const discountTable = {
+            // Your discount data here
+            vendor1: { tradeA: 12, tradeB: 12, tradeC: 'N/A', tradeD: 6 },
+            vendor2: { tradeA: 10, tradeB: 8, tradeC: 20, tradeD: 'N/A' },
+            vendor3: { tradeA: 'N/A', tradeB: 25, tradeC: 3, tradeD: 16 },
+            vendor4: { tradeA: 9, tradeB: 'N/A', tradeC: 16, tradeD: 30 },
+            vendor5: { tradeA: 5, tradeB: 11, tradeC: 'N/A', tradeD: 30 },
+        };
+        
+
+
+        const shoppingCart = [];
+
+        function calculateDiscountedPrice(productId, vendor) {
+            const product = productTable.find(product => product.id === productId);
+           // if (!product) {
+               // return { discountPercentage: 'N/A', discountedPrice: 'N/A' };
+           // }
+           //const product = productTable[0]; // Access the first product object
+
+            const tags = product.tag.split(',').map(tag => tag.trim());
+            const trade = 'trade' + tags[0].charAt(tags[0].length - 1);
+            const vendorName = 'vendor' + product.vendor.charAt(product.vendor.length - 1);
+           
+            console.log(trade);
+            console.log(vendorName);
+           
+            const discountPercentage = discountTable[vendorName] && discountTable[vendorName][trade] ? discountTable[vendorName][trade] : 'N/C';
+            console.log(discountPercentage);
+
+            if (discountPercentage === 'N/A') {
+                return { discountPercentage: 'N/A', discountedPrice: product.originalPrice };
+            }
+
+            const discountedPrice = (product.originalPrice-(product.originalPrice * (discountPercentage / 100))).toFixed(2);
+            return { discountPercentage, discountedPrice };
+        }
+        function addToCart(productId, vendor) {
+            const discountedInfo = calculateDiscountedPrice(productId, vendor);
+            //if (discountedInfo.discountedPrice !== 'N/A') {
+                const product = productTable.find(product => product.id === productId);
+                if (product) {
+                    shoppingCart.push({
+                        productId: productId,
+                        productName: product.productName,
+                        orgPrice: product.originalPrice,
+                        discountPercentage: discountedInfo.discountPercentage,
+                        discountedPrice: discountedInfo.discountedPrice,
+                        vendor: vendor,
+                    });
+                    updateCartTable();
+                    calculateTotalPrice();
+                }
+            //}
+        }
+
+
+        function removeFromCart(index) {
+            shoppingCart.splice(index, 1);
+            updateCartTable();
+            calculateTotalPrice();
+        }
+        function updateCartTable() {
+            const cartTable = document.getElementById('cart-table');
+            cartTable.innerHTML = ''; 
+        
+            // Add the table heading
+            const heading = cartTable.createTHead();
+            const row = heading.insertRow(0);
+            const headings = ["#", "Product name", "Org price", "Discount Percentage", "Discounted price", "Vendor", "Remove Cart"];
+            for (let i = 0; i < headings.length; i++) {
+                const th = document.createElement('th');
+                th.innerHTML = headings[i];
+                row.appendChild(th);
+            }
+        
+            shoppingCart.forEach((item, index) => {
+                const row = cartTable.insertRow();
+                const cell1 = row.insertCell(0);
+                const cell2 = row.insertCell(1);
+                const cell3 = row.insertCell(2);
+                const cell4 = row.insertCell(3);
+                const cell5 = row.insertCell(4);
+                const cell6 = row.insertCell(5);
+                const cell7 = row.insertCell(6);
+        
+                cell1.innerHTML = index + 1;
+                cell2.innerHTML = item.productName;
+                cell3.innerHTML = item.orgPrice;
+                cell4.innerHTML = item.discountPercentage;
+                cell5.innerHTML = item.discountedPrice;
+                cell6.innerHTML = item.vendor;
+                cell7.innerHTML = '<button onclick="removeFromCart(' + index + ')" style="background-color:red;">Remove Cart</button>';
+            });
+        }
+        
+        
+
+        function calculateTotalPrice() {
+            const totalPriceElement = document.getElementById('total-price');
+            const totalPrice = shoppingCart.reduce((total, item) => total + parseFloat(item.discountedPrice), 0);
+            totalPriceElement.textContent = 'Rs. ' + totalPrice.toFixed(2);
+        }
+      
+        // Example: Add event listeners to "Add To Cart" buttons in the product table
+        const addToCartButtons = document.querySelectorAll('table:nth-child(2) button');
+        addToCartButtons.forEach((button, index) => {
+            button.addEventListener('click', () => {
+                addToCart(index + 1, productTable[index].vendor);
+            });
+        });
+    </script>
+</body>
+</html>

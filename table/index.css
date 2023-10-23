@@ -1,0 +1,32 @@
+
+h1,h2,h3,h4 {
+    color: black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+th{
+    background-color: black;
+    color:white;
+}
+button{
+    background-color: green;
+    color:white;
+  
+ 
+    padding:0;
+    width:100%;
+
+    cursor:pointer;
+
+    
+}
+
